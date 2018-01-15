@@ -30,7 +30,8 @@
     "@adonisjs/shield": "^1.0.4",
     "adonis-firebase-admin": "^1.0.0",
     "adonis-nexmo": "^1.0.0",
-    "adonis-pusher": "^1.0.0"
+    "adonis-pusher": "^1.0.0",
+    "adonis-scheduler": "^3.0.0"
   },
   "devDependencies": {},
   "autoload": {

@@ -24,7 +24,8 @@ const providers = [
   'adonis-firebase-admin/providers/Firebase',
   'adonis-firebase-admin/providers/FirebaseAdmin',
   'adonis-nexmo/providers/Nexmo',
-  '@adonisjs/redis/providers/RedisProvider'
+  '@adonisjs/redis/providers/RedisProvider',
+  'adonis-scheduler/providers/SchedulerProvider'
 ]
 
 /*
@@ -38,7 +39,7 @@ const providers = [
 */
 const aceProviders = [
   '@adonisjs/lucid/providers/MigrationsProvider',
-  'adonis-twilio/providers/CommandsProvider'
+  'adonis-scheduler/providers/CommandsProvider'
 ]
 
 /*
@@ -53,7 +54,9 @@ const aceProviders = [
 |   { Route: 'Adonis/Src/Route' }
 |
 */
-const aliases = {}
+const aliases = {
+  Scheduler: 'Adonis/Addons/Scheduler'
+}
 
 /*
 |--------------------------------------------------------------------------
