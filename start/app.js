@@ -23,7 +23,8 @@ const providers = [
   'adonis-pusher/providers/Pusher',
   'adonis-firebase-admin/providers/Firebase',
   'adonis-firebase-admin/providers/FirebaseAdmin',
-  'adonis-nexmo/providers/Nexmo'
+  'adonis-nexmo/providers/Nexmo',
+  '@adonisjs/redis/providers/RedisProvider'
 ]
 
 /*
