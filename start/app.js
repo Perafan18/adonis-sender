@@ -20,11 +20,11 @@ const providers = [
   '@adonisjs/session/providers/SessionProvider',
   '@adonisjs/auth/providers/AuthProvider',
   '@adonisjs/mail/providers/MailProvider',
+  '@adonisjs/redis/providers/RedisProvider',
   'adonis-pusher/providers/Pusher',
   'adonis-firebase-admin/providers/Firebase',
   'adonis-firebase-admin/providers/FirebaseAdmin',
   'adonis-nexmo/providers/Nexmo',
-  '@adonisjs/redis/providers/RedisProvider',
   'adonis-scheduler/providers/SchedulerProvider'
 ]
 
